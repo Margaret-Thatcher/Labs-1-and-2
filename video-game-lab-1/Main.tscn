@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://d2chi33855am"]
+
+[ext_resource type="Texture2D" uid="uid://b1ocbder1l0do" path="res://Bazaart_2026-09-25_213551.png" id="1_fos0i"]
+[ext_resource type="Texture2D" uid="uid://dgfm8pb1icjrj" path="res://Bazaart_2026-09-25_213618.png" id="2_3dxm6"]
+[ext_resource type="PackedScene" uid="uid://cr7tljj6igb6k" path="res://rocks.tscn" id="3_lgr22"]
+[ext_resource type="PackedScene" uid="uid://crs7u4nhjvypq" path="res://Trees.tscn" id="4_trn2v"]
+[ext_resource type="PackedScene" uid="uid://cu15cufkuw18b" path="res://groundtexture.tscn" id="5_03owx"]
+
+[node name="Main Main" type="Node2D" unique_id=114921783]
+
+[node name="groundtexture" parent="." unique_id=1110292809 instance=ExtResource("5_03owx")]
+position = Vector2(-5.0000305, 19.00003)
+scale = Vector2(0.9999998, 0.9999998)
+
+[node name="rocks" parent="." unique_id=609934648 instance=ExtResource("4_trn2v")]
+position = Vector2(-11.999939, 5.0000916)
+scale = Vector2(0.9999998, 0.9999998)
+
+[node name="trees" parent="." unique_id=1443858602 instance=ExtResource("3_lgr22")]
+position = Vector2(26.000061, 17.000092)
+scale = Vector2(0.9999998, 0.9999998)
+
+[node name="Idman" type="Sprite2D" parent="." unique_id=1275316832]
+position = Vector2(400, 486)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_3dxm6")
+
+[node name="Taylor" type="Sprite2D" parent="." unique_id=690370259]
+position = Vector2(131.99998, 484.99994)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_fos0i")

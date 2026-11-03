@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://cr7tljj6igb6k"]
+
+[ext_resource type="Texture2D" uid="uid://bowy8dskhrkyb" path="res://Forest Pack - 20 Objects/Plants and rocks/spr_mildly_mossy_rock_160x160.png" id="1_uje7c"]
+[ext_resource type="Texture2D" uid="uid://dlpow6i6sylah" path="res://Forest Pack - 20 Objects/Plants and rocks/spr_mossy_rock_160x160.png" id="2_atcpr"]
+[ext_resource type="Texture2D" uid="uid://cjfgnc2ti8f1t" path="res://Forest Pack - 20 Objects/Plants and rocks/spr_rock_160x160.png" id="3_pcwpa"]
+[ext_resource type="Texture2D" uid="uid://4nqmrmpddi8c" path="res://Forest Pack - 20 Objects/Plants and rocks/spr_giant_mushroom_64x64.png" id="4_f8o4u"]
+
+[node name="Node2D" type="Node2D" unique_id=1443858602]
+
+[node name="SprMildlyMossyRock160x160" type="Sprite2D" parent="." unique_id=1605921171]
+position = Vector2(158, 539)
+texture = ExtResource("1_uje7c")
+
+[node name="SprMossyRock160x160" type="Sprite2D" parent="." unique_id=1764300725]
+position = Vector2(422, 334)
+texture = ExtResource("2_atcpr")
+
+[node name="SprRock160x160" type="Sprite2D" parent="." unique_id=838136229]
+position = Vector2(660, 472)
+texture = ExtResource("3_pcwpa")
+
+[node name="SprMildlyMossyRock160x161" type="Sprite2D" parent="." unique_id=1372446543]
+position = Vector2(643, 162)
+texture = ExtResource("1_uje7c")
+
+[node name="SprGiantMushroom64x64" type="Sprite2D" parent="." unique_id=1057864032]
+position = Vector2(214, 191)
+texture = ExtResource("4_f8o4u")
+
+[node name="SprMossyRock160x161" type="Sprite2D" parent="." unique_id=193582504]
+position = Vector2(995, 310)
+texture = ExtResource("2_atcpr")
+
+[node name="SprRock160x161" type="Sprite2D" parent="." unique_id=560452314]
+position = Vector2(428, 583)
+texture = ExtResource("3_pcwpa")
+
+[node name="SprMildlyMossyRock160x162" type="Sprite2D" parent="." unique_id=534394045]
+position = Vector2(1048, 577)
+texture = ExtResource("1_uje7c")
+
+[node name="SprGiantMushroom64x65" type="Sprite2D" parent="." unique_id=1529993687]
+position = Vector2(816, 285)
+texture = ExtResource("4_f8o4u")

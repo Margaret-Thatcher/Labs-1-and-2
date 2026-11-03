@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cw4jdj6gtnmpe"]
+
+[ext_resource type="PackedScene" uid="uid://dhcqvblrmuftw" path="res://robot.tscn" id="1_q333d"]
+[ext_resource type="Texture2D" uid="uid://c8fub5iv5guo0" path="res://icon.svg" id="2_6vilk"]
+[ext_resource type="Script" uid="uid://dcb5lpij5ts1l" path="res://evil_robot.gd" id="3_l75nf"]
+
+[node name="Node2D" type="Node2D" unique_id=2015547758]
+
+[node name="Robot" parent="." unique_id=207365808 instance=ExtResource("1_q333d")]
+position = Vector2(331, 193)
+
+[node name="Robot2" parent="." unique_id=586373378 instance=ExtResource("1_q333d")]
+position = Vector2(818, 96)
+speed = 3
+
+[node name="EvilRobot" type="Sprite2D" parent="." unique_id=1024522405]
+modulate = Color(0.95028347, 2.3584067e-05, 0.6560508, 1)
+position = Vector2(499, 323)
+texture = ExtResource("2_6vilk")
+script = ExtResource("3_l75nf")

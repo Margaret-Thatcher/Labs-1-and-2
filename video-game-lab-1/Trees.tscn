@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://crs7u4nhjvypq"]
+
+[ext_resource type="Texture2D" uid="uid://qxe7u2yil521" path="res://Forest Pack - 20 Objects/Trees/spr_pink_tree_192x192.png" id="1_15125"]
+[ext_resource type="Texture2D" uid="uid://bk3gbcx8mvywc" path="res://Forest Pack - 20 Objects/Trees/spr_pink_tree_less_branches_192x192.png" id="2_1fych"]
+[ext_resource type="Texture2D" uid="uid://c2ncr73iyodf1" path="res://Forest Pack - 20 Objects/Trees/spr_bonsai_tree_64x64.png" id="3_hbdwy"]
+[ext_resource type="Texture2D" uid="uid://bs2b3d7dm3mnv" path="res://Forest Pack - 20 Objects/Trees/spr_dead_tree2_128x192.png" id="4_1bp0v"]
+[ext_resource type="Texture2D" uid="uid://doa3c6bwyippd" path="res://Forest Pack - 20 Objects/Trees/spr_tree_128x192.png" id="5_dm85l"]
+[ext_resource type="Texture2D" uid="uid://dixpcwj8am3ym" path="res://Forest Pack - 20 Objects/Trees/spr_spruce_tree_128x192.png" id="6_a1ta5"]
+[ext_resource type="Texture2D" uid="uid://wkkmvjiut02r" path="res://Forest Pack - 20 Objects/Trees/spr_small_tree_128x128.png" id="7_1o8sv"]
+
+[node name="Node2D" type="Node2D" unique_id=609934648]
+
+[node name="SprPinkTree192x192" type="Sprite2D" parent="." unique_id=1308379265]
+position = Vector2(193, 390)
+texture = ExtResource("1_15125")
+
+[node name="SprPinkTreeLessBranches192x192" type="Sprite2D" parent="." unique_id=124185068]
+position = Vector2(442, 261)
+texture = ExtResource("2_1fych")
+
+[node name="SprBonsaiTree64x64" type="Sprite2D" parent="." unique_id=744629057]
+position = Vector2(972.5, 356.5)
+scale = Vector2(1.578125, 1.328125)
+texture = ExtResource("3_hbdwy")
+
+[node name="SprDeadTree2128x192" type="Sprite2D" parent="." unique_id=1191215316]
+position = Vector2(732, 348)
+texture = ExtResource("4_1bp0v")
+
+[node name="SprTree128x192" type="Sprite2D" parent="." unique_id=2134722366]
+position = Vector2(555, 480)
+texture = ExtResource("5_dm85l")
+
+[node name="SprSpruceTree128x192" type="Sprite2D" parent="." unique_id=1139751934]
+position = Vector2(886, 206)
+texture = ExtResource("6_a1ta5")
+
+[node name="SprSpruceTree128x193" type="Sprite2D" parent="." unique_id=747530201]
+position = Vector2(548, 131)
+texture = ExtResource("6_a1ta5")
+
+[node name="SprSmallTree128x128" type="Sprite2D" parent="." unique_id=1257661778]
+position = Vector2(227, 126)
+texture = ExtResource("7_1o8sv")
+
+[node name="SprSmallTree128x129" type="Sprite2D" parent="." unique_id=762830606]
+position = Vector2(895, 504)
+texture = ExtResource("7_1o8sv")
+
+[node name="SprSpruceTree128x194" type="Sprite2D" parent="." unique_id=1925517004]
+position = Vector2(362, 516)
+texture = ExtResource("6_a1ta5")
+
+[node name="SprPinkTree192x193" type="Sprite2D" parent="." unique_id=1032120020]
+position = Vector2(1039, 185)
+texture = ExtResource("1_15125")
+
+[node name="SprSmallTree128x130" type="Sprite2D" parent="." unique_id=360445135]
+position = Vector2(605, 282)
+texture = ExtResource("7_1o8sv")
